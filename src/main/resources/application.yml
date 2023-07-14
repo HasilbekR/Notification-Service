@@ -5,10 +5,10 @@ spring:
   application:
     name: NOTIFICATION-SERVICE
   mail:
-    host: smtp.google.com
-    port: 589
-    username: jahonovjavohir0@gmail.com
-    password: hxiiibxixgriyyac
+    host: smtp.gmail.com
+    port: 587
+    username: jamshidbekarimov@gmail.com
+    password: gmarydooqvwjgwwz
     properties:
       mjaail:
         smtp:
@@ -17,7 +17,6 @@ spring:
         smtp:
           starttls:
             enable: true
-
 
 eureka:
   client:

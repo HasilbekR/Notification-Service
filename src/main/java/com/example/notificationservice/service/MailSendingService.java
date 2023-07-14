@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 public class MailSendingService {
+
     private final JavaMailSender mailSender;
 
     @Value("${spring.mail.username}")
