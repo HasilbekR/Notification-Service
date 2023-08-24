@@ -3,7 +3,6 @@ package com.example.notificationservice.controller;
 import com.example.notificationservice.dto.MailDto;
 import com.example.notificationservice.service.MailSendingService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
